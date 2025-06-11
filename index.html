@@ -1,1 +1,61 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticia Destacada</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #111;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    .content {
+      font-size: 1.1rem;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    blockquote.twitter-tweet {
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Título de la Noticia</h1>
+    <img src="https://via.placeholder.com/800x400" alt="Imagen relacionada">
+    <div class="content">
+      <p>Aquí va el texto de la noticia. Puedes cambiar el contenido, agregar <a href="https://ejemplo.com" target="_blank">hipervínculos</a>, y ajustar la fuente si lo deseas.</p>
+
+      <p>Además puedes insertar un tweet así:</p>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Este es un tweet de ejemplo para insertar en la noticia.</p>
+        &mdash; Nombre (@usuario) <a href="https://twitter.com/usuario/status/1234567890123456789">Fecha</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</body>
+</html>
